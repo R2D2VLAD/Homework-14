@@ -17,6 +17,7 @@ public class Author {
         return this.surname;
     }
 
+    @Override
     public String toString() {
         return "Имя автора книги - " + this.name + " Фамилия автора книги - " + surname;
     }
